@@ -57,7 +57,6 @@ public:
             counter++;
         }
         FinalString = FinalString + to_string(counter) + n[i-1];
-        cout << FinalString << endl;
         return(FinalString);
     }
 };
